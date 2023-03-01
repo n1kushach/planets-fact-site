@@ -6,6 +6,13 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'Antonio': ['Antonio', 'sans-serif'],
+      'LeagueSpartan': ['League Spartan', 'sans-serif']
+    },
+    colors: {
+      active: '#419EBB'
+    }
   },
   plugins: [],
 }
