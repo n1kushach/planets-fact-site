@@ -5,7 +5,11 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'stars': 'url("/src/assets/background-stars.svg")'
+      }
+    },
     fontFamily: {
       'Antonio': ['Antonio', 'sans-serif'],
       'LeagueSpartan': ['League Spartan', 'sans-serif']
