@@ -46,7 +46,7 @@ export const Mercury = () => {
         </div>
         <div className="flex flex-col gap-5">
           <h1 className="font-Antonio text-[80px] text-[#FFFFFF]">Mercury</h1>
-          <p className="font-light text-[14px] text-[#FFFFFF] max-w-[350px]">
+          <p className="font-light text-[14px] h-[150px] w-[350px] text-[#FFFFFF] max-w-[350px]">
             {chooseText()}
           </p>
           <p className="font-LeagueSpartan font-light text-[14px] opacity-50 text-[#FFFFFF]">
@@ -62,8 +62,8 @@ export const Mercury = () => {
             }}
             className={
               menu.overview == true
-                ? "flex cursor-pointer hover:bg-active duration-300 items-center gap-[28px] border border-[#FFFFFF] bg-active p-2"
-                : "flex cursor-pointer hover:bg-active duration-300 items-center gap-[28px] border border-[#FFFFFF] p-2"
+                ? "flex cursor-pointer hover:bg-[#D8D8D8]  duration-300 items-center gap-[28px] border border-[#FFFFFF] bg-active p-2"
+                : "flex cursor-pointer hover:bg-[#D8D8D8] duration-300 items-center gap-[28px] border border-[#FFFFFF] p-2"
             }
           >
             <p className="text-[#FFFFFF] text-[12px] font-bold opacity-50 ml-2">
@@ -83,8 +83,8 @@ export const Mercury = () => {
             }}
             className={
               menu.structure == true
-                ? "flex cursor-pointer hover:bg-active duration-300 items-center gap-[28px] border border-[#FFFFFF] bg-active p-2"
-                : "flex cursor-pointer hover:bg-active duration-300 items-center gap-[28px] border border-[#FFFFFF] p-2"
+                ? "flex cursor-pointer hover:bg-[#D8D8D8] duration-300 items-center gap-[28px] border border-[#FFFFFF] bg-active p-2"
+                : "flex cursor-pointer hover:bg-[#D8D8D8] duration-300 items-center gap-[28px] border border-[#FFFFFF] p-2"
             }
           >
             <p className="text-[#FFFFFF] text-[12px] font-bold opacity-50 ml-2">
@@ -104,8 +104,8 @@ export const Mercury = () => {
             }}
             className={
               menu.geology == true
-                ? "flex cursor-pointer hover:bg-active duration-300 items-center gap-[28px] border border-[#FFFFFF] bg-active p-2"
-                : "flex cursor-pointer hover:bg-active duration-300 items-center gap-[28px] border border-[#FFFFFF] p-2"
+                ? "flex cursor-pointer hover:bg-[#D8D8D8] duration-300 items-center gap-[28px] border border-[#FFFFFF] bg-active p-2"
+                : "flex cursor-pointer hover:bg-[#D8D8D8] duration-300 items-center gap-[28px] border border-[#FFFFFF] p-2"
             }
           >
             <p className="text-[#FFFFFF] text-[12px] font-bold opacity-50 ml-2">
