@@ -1,4 +1,5 @@
 import React from "react";
+import { Outlet } from "react-router-dom";
 
 
 export const MainView = () => {
@@ -38,6 +39,9 @@ export const MainView = () => {
           </div>
         </div>
         <hr className="border-[#FFFFFF] mt-[27px] opacity-20"></hr>
+      </div>
+      <div>
+        <Outlet/>
       </div>
     </div>
   );
